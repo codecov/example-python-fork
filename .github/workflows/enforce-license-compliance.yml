@@ -1,5 +1,6 @@
 name: Enforce License Compliance
 
+# Enable Actions workflow evaluation on this fork (same definition as codecov/example-python).
 on:
   pull_request:
     branches: [main, master]
